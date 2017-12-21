@@ -12,9 +12,9 @@
 
 # classification_image_HF(Pour mon dossier modelHF)
 <p> 1.Download img_align_celeba.zip and list_attr_celeba.txt.</p>
-2.Delete the first line of list_attr_celeba.txt.(If we keep the first line it will lead the error of index out of range beacause we couldn't read the 21th colone(attribute "male") of the first line.)
-3.Put the 5 files (gender_net.caffemodel,deploy_gender.prototxt,mean.binaryproto,list_attr_celeba.txt,model.py) in the directory img_align_celeba.
-4.run model.py (python model.py)
-5.You will find a new file called prediction.txt, in this file you will find all the prediction of label orderly(the first is the label of 000001.jpg, the seconde is the label of 000002.jpg,the third is the label of 000003.jpg)
-6.You will find the accuracy in the terminal.
-# classification_image
+<p>2.Delete the first line of list_attr_celeba.txt.(If we keep the first line it will lead the error of index out of range beacause we couldn't read the 21th colone(attribute "male") of the first line.)</p>
+<p>3.Put the 5 files (gender_net.caffemodel,deploy_gender.prototxt,mean.binaryproto,list_attr_celeba.txt,model.py) in the directory img_align_celeba.</p>
+<p>4.run model.py (python model.py)</p>
+<p>5.You will find a new file called prediction.txt, in this file you will find all the prediction of label orderly(the first is the label of 000001.jpg, the seconde is the label of 000002.jpg,the third is the label of 000003.jpg)</p>
+<p>6.You will find the accuracy in the terminal.</p>
+
