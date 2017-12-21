@@ -11,7 +11,7 @@
 
 
 # classification_image_HF(Pour mon dossier modelHF)
-1.Download img_align_celeba.zip and list_attr_celeba.txt.
+<p> 1.Download img_align_celeba.zip and list_attr_celeba.txt.</p>
 2.Delete the first line of list_attr_celeba.txt.(If we keep the first line it will lead the error of index out of range beacause we couldn't read the 21th colone(attribute "male") of the first line.)
 3.Put the 5 files (gender_net.caffemodel,deploy_gender.prototxt,mean.binaryproto,list_attr_celeba.txt,model.py) in the directory img_align_celeba.
 4.run model.py (python model.py)
